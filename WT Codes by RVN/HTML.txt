@@ -1,0 +1,92 @@
+SGML (Standard Generalized Markup Language)
+HTML (HTML stands for Hypertext Markup Language)
+HTML is used to design web pages
+It defines the way that images , multimedia , and text are displayed in web browsers.
+Hyper is opposite of Linear.
+Computer programs flows in linear (in proper sequence). 
+HTML allows viewing any page any time by clicking link.
+The markup is the instructions for displaying or printing the text. Set of annotations or text is used to give instruction.
+Tags are used to give instruction to browser about how to render a text.
+
+// Introduction to HTML Document
+The HTML tags are non-case sensitive
+Tags are in < and > symbols
+2 types of tags : 1) Paired Tags 2) Unpaired tags
+In Paired Tags the text is placed between the tag and its companion tag
+First tag --> opening tag
+second tag --> closing tag
+Paired tags are also called as Container tags
+
+An unpaired tag is called as Singular or Stand-Alone Tags or emppty tags
+
+// HTML elements
+
+TAGS --
+<html>
+<title></title>
+<body>
+<p></p>
+</body>
+</html>
+
+<p> --> paragraph
+<br> --> break the line 
+<b> --> bold
+<em> --> emphasized text
+<i> --> italics (defines part of text in an alternate voice)
+<small> --> smaller text
+<strong> --> important text
+<sub> --> subscripted text
+<sup> --> superscripted text
+<ins> --> inserted text
+<del> --> deleted text
+<mark> --> marked/highlighted text
+<pre> --> preserving whitespaces
+
+<a></a> --> Anchor tag (to create a link)
+Syntax --> <a href="url"<Click this text</a>
+//href declares the url to be navigated
+
+-------------------------------------------------------------------------------------
+
+1. The Href Attribute
+It defines the link "address"
+Hypertext references can use ...
+#1 Absolute URLs --> full path
+#2 Relative URLs --> path relative to current position
+#3 Root Relative URLs --> path relative to Domain's root is provided
+
+/ (forward slash /) --> indicates Domain's root
+
+
+2. The Target Attribute
+It defines where the linked document will be opened
+e.g. 
+<a href="http//www.google.com/"target="_blank">Visit Google</a>
+
+_blank --> opens URL in a new web browser
+_self --> Loads the URL in the current browser window
+_parent --> Loads the URL into the Parent frame
+_top --> Loads the URL in the current browser window, but cancelling out any frames. Therefore , if frames were being used , they will be closed.
+
+
+3. The id Attribute
+used to create Bookmark inside an HTML document
+//bookmarks are invisible to the reader (not displayed anyway)
+e.g.
+<a id="tips">Useful Tips Section</a>
+
+
+4. Email Links 
+"MailTo" attribute is used inside the anchor tag
+<a href="mailto:rohit.navgale@gmail.com">Email to RVN</a>
+
+
+5. Image as Hyperlinks
+Images can also act as hyperlinks just as normal text
+<a href="rohit.htm"><img src="rohit.jpg"></a>
+
+
+
+
+
